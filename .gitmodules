@@ -1,0 +1,9 @@
+[submodule "The_Sound"]
+	path = The_Sound
+	url = git@github.com:vicente-gonzalez-ruiz/The_Sound.git
+[submodule "The_Human_Auditory_System"]
+	path = The_Human_Auditory_System
+	url = git@github.com:vicente-gonzalez-ruiz/The_Human_Auditory_System.git
+[submodule "Human_Sound_Perception"]
+	path = Human_Sound_Perception
+	url = git@github.com:vicente-gonzalez-ruiz/Human_Sound_Perception.git
