@@ -10,3 +10,6 @@
 [submodule "differential_audio_encoding"]
 	path = differential_audio_encoding
 	url = git@github.com:vicente-gonzalez-ruiz/differential_audio_encoding.git
+[submodule "speech_coding"]
+	path = speech_coding
+	url = git@github.com:vicente-gonzalez-ruiz/speech_coding.git
