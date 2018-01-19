@@ -16,3 +16,6 @@
 [submodule "Vorbis"]
 	path = Vorbis
 	url = git@github.com:vicente-gonzalez-ruiz/Vorbis.git
+[submodule "AAC"]
+	path = AAC
+	url = git@github.com:vicente-gonzalez-ruiz/AAC.git
