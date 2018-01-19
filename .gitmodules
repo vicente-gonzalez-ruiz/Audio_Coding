@@ -28,3 +28,6 @@
 [submodule "MP3"]
 	path = MP3
 	url = git@github.com:vicente-gonzalez-ruiz/MP3.git
+[submodule "FLAC"]
+	path = FLAC
+	url = git@github.com:vicente-gonzalez-ruiz/FLAC.git
