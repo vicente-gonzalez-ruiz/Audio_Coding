@@ -19,3 +19,6 @@
 [submodule "AAC"]
 	path = AAC
 	url = git@github.com:vicente-gonzalez-ruiz/AAC.git
+[submodule "Dolby_Digital_AC3"]
+	path = Dolby_Digital_AC3
+	url = git@github.com:vicente-gonzalez-ruiz/Dolby_Digital_AC3.git
