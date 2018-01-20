@@ -31,6 +31,6 @@
 [submodule "FLAC"]
 	path = FLAC
 	url = git@github.com:vicente-gonzalez-ruiz/FLAC.git
-[submodule "transform-audio-coding"]
-	path = transform-audio-coding
-	url = git@github.com:Sistemas-Multimedia/transform-audio-coding.git
+[submodule "transform_audio_coding"]
+	path = transform_audio_coding
+	url = git@github.com:vicente-gonzalez-ruiz/transform_audio_coding.git
