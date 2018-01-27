@@ -7,9 +7,6 @@
 [submodule "Human_Sound_Perception"]
 	path = Human_Sound_Perception
 	url = git@github.com:vicente-gonzalez-ruiz/Human_Sound_Perception.git
-[submodule "differential_audio_encoding"]
-	path = differential_audio_encoding
-	url = git@github.com:vicente-gonzalez-ruiz/differential_audio_encoding.git
 [submodule "speech_coding"]
 	path = speech_coding
 	url = git@github.com:vicente-gonzalez-ruiz/speech_coding.git
