@@ -1,33 +1,3 @@
-[submodule "The_Sound"]
-	path = The_Sound
-	url = git@github.com:vicente-gonzalez-ruiz/The_Sound.git
-[submodule "The_Human_Auditory_System"]
-	path = The_Human_Auditory_System
-	url = git@github.com:vicente-gonzalez-ruiz/The_Human_Auditory_System.git
-[submodule "Human_Sound_Perception"]
-	path = Human_Sound_Perception
-	url = git@github.com:vicente-gonzalez-ruiz/Human_Sound_Perception.git
 [submodule "speech_coding"]
 	path = speech_coding
 	url = git@github.com:vicente-gonzalez-ruiz/speech_coding.git
-[submodule "Vorbis"]
-	path = Vorbis
-	url = git@github.com:vicente-gonzalez-ruiz/Vorbis.git
-[submodule "AAC"]
-	path = AAC
-	url = git@github.com:vicente-gonzalez-ruiz/AAC.git
-[submodule "Dolby_Digital_AC3"]
-	path = Dolby_Digital_AC3
-	url = git@github.com:vicente-gonzalez-ruiz/Dolby_Digital_AC3.git
-[submodule "DTS"]
-	path = DTS
-	url = git@github.com:vicente-gonzalez-ruiz/DTS.git
-[submodule "MP3"]
-	path = MP3
-	url = git@github.com:vicente-gonzalez-ruiz/MP3.git
-[submodule "FLAC"]
-	path = FLAC
-	url = git@github.com:vicente-gonzalez-ruiz/FLAC.git
-[submodule "delta_modulation"]
-	path = delta_modulation
-	url = git@github.com:vicente-gonzalez-ruiz/delta_modulation.git
