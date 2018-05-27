@@ -1,3 +1,0 @@
-[submodule "speech_coding"]
-	path = speech_coding
-	url = git@github.com:vicente-gonzalez-ruiz/speech_coding.git
