@@ -1,0 +1,68 @@
+%%% Local Variables:
+%%% mode: latex
+%%% TeX-master: "<none>"
+%%% End:
+
+\title{Audio coding}
+
+\author{Vicente González Ruiz}
+
+\maketitle
+
+\section{Data flow}
+
+    \begin{verbatim}
+PCM   +---------+        +---------+ PCM
+----->| Encoder |------->| Decoder |----->
+audio +---------+ stream +---------+ audio'
+
+              audio != audio'
+                (usually)
+\end{verbatim}
+
+\section{Typical encoder steps}
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\item
+  \textbf{Overlaped subband analysis} (usually with
+  \href{http://en.wikipedia.org/wiki/Modified_discrete_cosine_transform\%7D\%20(Modified\%20Discrete\%20Cosine\%20Transform)}{MDCT}.
+  Goes from the temporal to a frequency domain.
+\item
+  \textbf{Quantization}. Basically, removes pure signals of low
+  amplitude but taking also into account the SAM (pSycho Acoustic Model)
+  of the HAS (Human Auditory System). Noise use to be of low power!
+\item
+  \href{https://vicente-gonzalez-ruiz.github.io/text_compression/}{\textbf{Entropy
+  coding}}.
+\end{enumerate}
+
+\section{Lossy coding}
+\begin{itemize}
+\tightlist
+\item
+  The limitations of human perception are incorporated into the
+  compression process through the use of psychoacoustic models. Some of
+  these limitations are physiological, based on the machinery of
+  hearing. Others are psychological, based on how our brain processes
+  auditory stimuli.
+\end{itemize}
+
+    \#\#~Overlaped processing
+
+\begin{verbatim}
+0              N-1            2N-1            3N-1
++---------------+---------------+---------------+ s[n]
+<--------Transform Step--------->
+                <---------Transform Step-------->
+\end{verbatim}
+
+\begin{itemize}
+\item
+  Each transform step inputs \(2N\) samples and outputs \(N\) MDCT
+  coeficients.
+\item
+  \(N\) can vary depending on the characteristics of the sound. For
+  \emph{complex} sounds without clear armonics (such as a plosive
+  sound), shortened windows improve the performance. For \emph{simple}
+  sounds (such as a music instrument), large windows are better.
+\end{itemize}

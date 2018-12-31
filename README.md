@@ -1,1 +1,3 @@
-[Click me](https://cdn.rawgit.com/vicente-gonzalez-ruiz/audio_compression/master/index.html).
+# Audio compression
+
+[Click me](https://vicente-gonzalez-ruiz.github.io/audio_compression/).
